@@ -1,0 +1,81 @@
+# ──────────────────────────────────────────────
+#  VCD Ripper Pro — .gitignore
+# ──────────────────────────────────────────────
+
+# ── Python ───────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.spec
+
+# ── PyInstaller output ───────────────────────
+/dist/
+/build/
+*.spec
+
+# ── Virtual environments ─────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ── OS / system files ────────────────────────
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# ── IDE / editor files ───────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Logs & temporary files ───────────────────
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ── Compiled / portable output ───────────────
+# The portable ZIP and folder are build artifacts — do NOT commit them
+VCD_Ripper_Pro_Portable.zip
+
+# ── Sensitive / personal output ──────────────
+# Never commit ripped video output files
+*.dat
+*.mpg
+*.mp4
+*.mov
+*.wav
+*.mp3
+
+ffmpeg/
+*.exe
+
+ffmpeg/bin/ffmpeg.exe
+ffmpeg/bin/ffprobe.exe
+ffmpeg/
